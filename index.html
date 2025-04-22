@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2022 Portfolio Design</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #EBD9CC;
+      font-family: 'MADE TOMMY', sans-serif;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .bg-ssh {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1600px;
+      font-family: 'MADE TOMMY', sans-serif;
+      background: linear-gradient(135deg, #86524B 0%, #D7A29C 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: blur(50px);
+      z-index: -1;
+      white-space: nowrap;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 64px;
+    }
+
+    .left-texts {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .left-texts p {
+      margin: 0;
+      font-size: 36px;
+      color: #2A2C55;
+      font-family: 'MADE TOMMY', sans-serif;
+    }
+
+    .quote {
+      color: #BF890F;
+      font-size: 98px;
+      margin-top: 20px;
+    }
+
+    .menu {
+      font-size: 40px;
+      font-family: 'ITF Devanagari', sans-serif;
+      font-weight: bold;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .main-title {
+      position: absolute;
+      top: 160px;
+      right: 80px;
+      text-align: right;
+      font-family: 'ITF Devanagari', sans-serif;
+      font-size: 64px;
+      font-weight: bold;
+      color: #B40821;
+      line-height: 1.2;
+    }
+
+    .footer-name {
+      position: absolute;
+      bottom: 40px;
+      left: 64px;
+      font-family: 'MADE TOMMY', sans-serif;
+      font-size: 36px;
+      font-weight: bold;
+      color: #2A2C55;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .bg-ssh {
+        font-size: 21vw;
+        filter: blur(35px);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .bg-ssh {
+        font-size: 8vw;
+        filter: blur(20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-ssh">ssh</div>
+  <header>
+    <div class="left-texts">
+      <p>visual design</p>
+      <p>charector</p>
+      <p>branding</p>
+      <p>ux/ui</p>
+      <div class="quote">''</div>
+    </div>
+    <div class="menu">menu</div>
+  </header>
+
+  <div class="main-title">
+    2022<br>portfolio<br>design
+  </div>
+
+  <div class="footer-name">
+    Shin sehee
+  </div>
+</body>
+</html>
